@@ -39,8 +39,8 @@
 
 
 ### Build/Сборка
-
-``bash
+```
+bash
 csc /target:winexe /platform:x64 /optimize+ /out:CookieGrabber.exe /r:System.Net.Http.dll /r:System.IO.Compression.dll /r:System.IO.Compression.FileSystem.dll /r:System.Management.dll CookieGrabber.cs
 ```
 
