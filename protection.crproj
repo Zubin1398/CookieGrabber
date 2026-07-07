@@ -1,0 +1,13 @@
+<project baseDir="bin\Release" outputDir="Confused">
+    <module path="RuntimeBroker.exe">
+        <rule pattern="true" inherit="false">
+            <protection id="rename" />
+            <protection id="anti debug" />
+            <protection id="anti ildasm" />
+            <protection id="ctrl flow" />
+            <protection id="constants" />
+            <protection id="resources" />
+            <protection id="ref proxy" />
+        </rule>
+    </module>
+</project>
